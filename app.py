@@ -62,3 +62,10 @@ elif st.session_state["authentication_status"] is False:
     st.error("Username/password incorrect")
 elif st.session_state["authentication_status"] is None:
     st.warning('Veuillez vous connecter')
+
+    st.markdown("""
+---
+### Test accounts  
+- **Username :** `zilya`  
+- **Password :** `123`
+""")
